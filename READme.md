@@ -69,7 +69,7 @@ pip install pymupdf pillow
 > Example usage (adjust to match your script args if they differ):
 
 ```bash
-python pdf_to_compressed_images.py \
+python main.py \
   --input "file.pdf" \
   --out "output_images" \
   --zoom 2.0 \
